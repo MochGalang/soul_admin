@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://soul-api-two.vercel.app";
 
 export default function AdminLoginPage() {
   const router = useRouter();
@@ -157,7 +157,7 @@ export default function AdminLoginPage() {
           {/* Back link */}
           <div className="mt-6 text-center">
             <a
-              href="http://localhost:3000"
+              href="https://soul-admin-zeta.vercel.app"
               className="text-white/40 text-xs hover:text-white/70 transition-colors"
             >
               ← Kembali ke Beranda
