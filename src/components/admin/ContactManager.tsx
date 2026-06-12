@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Save, ExternalLink } from "lucide-react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://soul-api-two.vercel.app";
 
 interface Settings {
   whatsapp_number: string;
